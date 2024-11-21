@@ -1,4 +1,69 @@
 
+.header-button--menu{
+    background-color: white; /* Color inicial del botón */
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+.header-button--menu:hover{
+    color: green; /* Color del botón cuando el ratón pasa por encima */
+  }
+
+.header-button--rewards{
+    background-color: white; /* Color inicial del botón */
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+.header-button--rewards:hover{
+    color: green; /* Color del botón cuando el ratón pasa por encima */
+  }
+
+.header-button--shop{
+    background-color: white; /* Color inicial del botón */
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+.header-button--shop:hover{
+    color: grey; /* Color del botón cuando el ratón pasa por encima */
+  }
+
+.header-button--login{
+    background-color: white; /* Color inicial del botón */
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: black;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+.header-button--login:hover{
+    color: green; /* Color del botón cuando el ratón pasa por encima */
+  }
+
+.header-button--join{
+    background-color: black; /* Color inicial del botón */
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+.header-button--join:hover{
+    background-color: rgb(53, 53, 53); /* Color del botón cuando el ratón pasa por encima */
+  }
 
 body{
     display: flex;
@@ -13,7 +78,14 @@ body{
     flex-direction: row;
     font-family: Arial, sans-serif;
 }
-
+h2{
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
 .section1{
     display: flex;
     flex-direction: row;
@@ -33,11 +105,81 @@ body{
     text-align: center;
     color: white;
 }
-h2{
-    font-family: Arial, sans-serif;
-    font-weight: 800;
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    background: rgb(4, 11, 228);
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
 }
-p{
-    font-family: Arial, sans-serif;
-    font-size: 12pt;
+.section2-img{
+    margin-left: 150px;
+}
+.section2-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: white;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    background: rgb(233, 2, 2);
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.section3-img{
+    margin-right: 150px;
+}
+.section3-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: white;
+}
+.section4{
+    display: flex;
+    flex-direction: row;
+    background: rgb(1, 56, 1);
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.section4-img{
+    margin-left: 150px;
+}
+.section4-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: white;
+}
+.section5{
+    display: flex;
+    flex-direction: row;
+    background: rgb(233, 2, 2);
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.section5-img{
+    margin-right: 150px;
+}
+.section5-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: white;
 }
