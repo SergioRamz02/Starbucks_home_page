@@ -1,5 +1,18 @@
 
-.header-button--menu{
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+}
+.navbar-left{
+    margin-right: 150px;
+    margin-left: 120px;
+    padding-bottom: 5px;
+    justify-content: space-around; /* Espaciado entre elementos */
+    align-items: center;
+    text-align: center;
+}
+  .navbar-left--menu{
     background-color: white; /* Color inicial del botón */
     color: black;
     padding: 5px;
@@ -8,11 +21,11 @@
     font-family: Arial, sans-serif;
     font-size: 12pt;
 }
-.header-button--menu:hover{
+.navbar-left--menu:hover{
     color: green; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.header-button--rewards{
+.navbar-left--rewards{
     background-color: white; /* Color inicial del botón */
     color: black;
     padding: 5px;
@@ -21,38 +34,46 @@
     font-family: Arial, sans-serif;
     font-size: 12pt;
 }
-.header-button--rewards:hover{
+.navbar-left--rewards:hover{
     color: green; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.header-button--shop{
+.navbar-right{
+    margin-right: 130px;
+    margin-left: 450px;
+    padding-top: 10px;
+    justify-content: space-around; /* Espaciado entre elementos */
+    align-items: center;
+}
+.navbar-right--shop{
     background-color: white; /* Color inicial del botón */
     color: black;
-    padding: 5px;
+    margin-right: 20px;
     border: none;
     cursor: pointer;
     font-family: Arial, sans-serif;
     font-size: 12pt;
 }
-.header-button--shop:hover{
+.navbar-right--shop:hover{
     color: grey; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.header-button--login{
+.navbar-right--login{
     background-color: white; /* Color inicial del botón */
     color: black;
     padding: 5px;
+    margin-right: 20px;
     border-radius: 15px;
     border-color: black;
     cursor: pointer;
     font-family: Arial, sans-serif;
     font-size: 12pt;
 }
-.header-button--login:hover{
+.navbar-right--login:hover{
     color: green; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.header-button--join{
+.navbar-right--join{
     background-color: black; /* Color inicial del botón */
     color: white;
     padding: 5px;
@@ -61,7 +82,7 @@
     font-family: Arial, sans-serif;
     font-size: 12pt;
 }
-.header-button--join:hover{
+.navbar-right--join:hover{
     background-color: rgb(53, 53, 53); /* Color del botón cuando el ratón pasa por encima */
   }
 
@@ -69,14 +90,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-items: center;
-   
     background: white;
-}
-
-.header{
-    display: flex;
-    flex-direction: row;
-    font-family: Arial, sans-serif;
 }
 h2{
     font-family: Arial, sans-serif;
@@ -92,7 +106,7 @@ p{
     background: rgb(1, 56, 1);
     margin-top: 10px;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 .section1-img{
     margin-right: 150px;
@@ -112,7 +126,7 @@ p{
     background: rgb(4, 11, 228);
     margin-top: 10px;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 .section2-img{
     margin-left: 150px;
@@ -132,7 +146,7 @@ p{
     background: rgb(233, 2, 2);
     margin-top: 10px;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 .section3-img{
     margin-right: 150px;
@@ -151,7 +165,7 @@ p{
     background: rgb(1, 56, 1);
     margin-top: 10px;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 .section4-img{
     margin-left: 150px;
@@ -170,7 +184,7 @@ p{
     background: rgb(233, 2, 2);
     margin-top: 10px;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 .section5-img{
     margin-right: 150px;
