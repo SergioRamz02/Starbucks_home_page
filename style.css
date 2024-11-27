@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*Barra de navegación*/
-.navbar{
+.header-navbar{
     display: flex;
     flex-direction: row;
     font-family: "Open Sans", sans-serif;
 }
 
-.navbar-left{
+.header-navbar--left{
     margin-right: 150px;
     margin-left: 100px;
     padding-bottom: 5px;
@@ -15,7 +15,7 @@
     align-items: center;
     text-align: center;
 }
-  .navbar-left--menu{
+  .header-navbar--left---menu{
     background-color: white; /* Color inicial del botón */
     color: black;
     padding: 5px;
@@ -24,11 +24,11 @@
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
 }
-.navbar-left--menu:hover{
+.header-navbar--left---menu:hover{
     color: green; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.navbar-left--rewards{
+.header-navbar--left---rewards{
     background-color: white; /* Color inicial del botón */
     color: black;
     padding: 5px;
@@ -37,31 +37,31 @@
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
 }
-.navbar-left--rewards:hover{
+.header-navbar--left---rewards:hover{
     color: green; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.navbar-right{
+.header-navbar--right{
     margin-right: 130px;
     margin-left: 450px;
     padding-top: 10px;
     justify-content: space-around; /* Espaciado entre elementos */
     align-items: center;
 }
-.navbar-right--shop{
+.header-navbar--right---shop{
     background-color: white; /* Color inicial del botón */
     color: black;
-    margin-right: 20px;
+    margin-right: 10px;
     border: none;
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
 }
-.navbar-right--shop:hover{
+.header-navbar--right---shop:hover{
     color: grey; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.navbar-right--login{
+.header-navbar--right---login{
     background-color: white; /* Color inicial del botón */
     color: black;
     padding: 5px;
@@ -72,11 +72,11 @@
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
 }
-.navbar-right--login:hover{
+.header-navbar--right---login:hover{
     color: green; /* Color del botón cuando el ratón pasa por encima */
   }
 
-.navbar-right--join{
+.header-navbar--right---join{
     background-color: black; /* Color inicial del botón */
     color: white;
     padding: 5px;
@@ -85,7 +85,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 12pt;
 }
-.navbar-right--join:hover{
+.header-navbar--right---join:hover{
     background-color: rgb(53, 53, 53); /* Color del botón cuando el ratón pasa por encima */
   }
 /*Body de home page*/
@@ -94,6 +94,9 @@ body{
     flex-direction: column;
     justify-items: center;
     background: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 35px;
 }
 h2{
     font-family: "Open Sans", sans-serif;
@@ -108,9 +111,7 @@ p{
     display: flex;
     flex-direction: row;
     background:  #1e3932 ;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 35px;
+   
 }
 .section1-img{
     margin-right: 150px;
@@ -128,9 +129,7 @@ p{
     display: flex;
     flex-direction: row;
     background: #0044b4;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 35px;
+
 }
 .section2-img{
     margin-left: 150px;
@@ -148,9 +147,7 @@ p{
     display: flex;
     flex-direction: row;
     background: #d50032;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 35px;
+
 }
 .section3-img{
     margin-right: 150px;
@@ -168,9 +165,7 @@ p{
     display: flex;
     flex-direction: row;
     background: #1e3932 ;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 35px;
+
 }
 .section4-img{
     margin-left: 150px;
@@ -188,9 +183,7 @@ p{
     display: flex;
     flex-direction: row;
     background: #d50032;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 35px;
+
 }
 .section5-img{
     margin-right: 150px;
