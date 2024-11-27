@@ -376,3 +376,20 @@ ul{
 #codigo{
     font-size: 8pt;
 }
+/*Diseño del menu*/
+
+/*Diseño del rewards*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.container-fijo{
+    background-color: #1e3932;
+    color: white;
+    align-items: flex-start;
+    padding: 100px;
+}
