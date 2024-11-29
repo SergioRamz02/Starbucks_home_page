@@ -383,13 +383,25 @@ ul{
 .container{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
+    height: calc(100vh-20px);
     text-align: center;
-    justify-content: space-around;
     background-color: white;
+    font-family: "Open Sans", sans-serif;
 }
 .container-fijo{
-    background-color: #1e3932;
+    position: fixed;
+    top: 1;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
     color: white;
-    align-items: flex-start;
-    padding: 100px;
+    padding: 50px;
+    margin: 0;
+    width: 40vw;
+    height: 100vh;
+    overflow: hidden; /*Es una propiedad para fijar el contenido con respecto al contenedor*/
+}
+
+.container-regalos{
+    width: 50vw;
+    margin-left: 50vw;
 }
