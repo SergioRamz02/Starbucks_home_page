@@ -139,6 +139,40 @@
 .imagenes-unete img{
     width: 10vw;
 }
+.beneficios-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    grid-template-rows: repeat(2, auto); /* 2 filas, cada una con altura automática */
+    gap: 10px; /* Espacio entre los elementos */
+    text-align: center;
+    margin: 45px;
+}
+
+.beneficios-container figure{
+    margin: 0;
+    justify-items: center;
+}
+.beneficios-container img{
+    width: 8vw;
+}
+
+#stars-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(241, 240, 235);
+    width: 100%;
+    padding: 10px 20px;
+}
+#stars-container figure{
+    margin: 0;
+    justify-items: center;
+}
+#stars-container img{
+    width: 30vw;
+}
 
 /*Estilo del pie de página*/
 
