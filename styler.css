@@ -1,3 +1,4 @@
+/*Diseño del rewards*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*Barra de navegación*/
@@ -88,194 +89,56 @@
 .header-navbar--right---join:hover{
     background-color: rgb(53, 53, 53); /* Color del botón cuando el ratón pasa por encima */
   }
-/*Body de home page*/
-body{
+/*Cuerpo del rewards*/
+.rewards-body{
     display: flex;
     flex-direction: column;
     justify-items: center;
     background: white;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 35px;
+    margin: 0;
 }
-h2{
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: calc(100vh-20px);
+    text-align: center;
+    background-color: white;
     font-family: "Open Sans", sans-serif;
-    font-weight: 800;
 }
-p{
-    font-family: "Open Sans", sans-serif;
-    font-size: 12pt;
-}
-/*Section 1*/
-.section1{
-    display: flex;
-    flex-direction: row;
-    background:  #1e3932 ;
-   
-}
-.section1-img{
-    margin-right: 150px;
-}
-.section1-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    text-align: center;
+.container-fijo{
+    position: fixed;
+    top: 1;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
     color: white;
+    padding: 50px;
+    margin: 0;
+    width: 35vw;
+    height: 100vh;
+    overflow: hidden; /*Es una propiedad para fijar el contenido con respecto al contenedor*/
 }
-/*Section 2*/
-.section2{
-    display: flex;
-    flex-direction: row;
-    background: #0044b4;
 
-}
-.section2-img{
-    margin-left: 150px;
-}
-.section2-container{
+.container-regalos{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    text-align: center;
-    color: white;
-}
-/*Section 3*/
-.section3{
-    display: flex;
-    flex-direction: row;
-    background: #d50032;
-
-}
-.section3-img{
-    margin-right: 150px;
-}
-.section3-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    text-align: center;
-    color: white;
-}
-/*Section 4*/
-.section4{
-    display: flex;
-    flex-direction: row;
-    background: #1e3932 ;
-
-}
-.section4-img{
-    margin-left: 150px;
-}
-.section4-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    text-align: center;
-    color: white;
-}
-/*Section 5*/
-.section5{
-    display: flex;
-    flex-direction: row;
-    background: #d50032;
-
-}
-.section5-img{
-    margin-right: 150px;
-}
-.section5-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    text-align: center;
-    line-height: 2;
-    color: white;
-}
-.section5-container--b1{
-    background-color: #d50032; /* Color inicial del botón */
-    color: white;
-    padding: 5px;
-    margin-right: 20px;
-    border-radius: 15px;
-    border-color: white;
-    cursor: pointer;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12pt;
-}
-.section5-container--b1:hover{
-    background-color: #e02652; /* Color del botón cuando el ratón pasa por encima */
-  }
-/*Section 6*/
-.section6{
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    margin-top: 30px;
+    text-align: center;
+    width: 50vw;
+    margin-left: 45vw;
 }
 
-.section6-block1{
+.imagenes-unete{
     display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
-    background: rgb(252, 193, 220);
-    align-items: center;
-    text-align: center;
-    line-height: 3;
-    color: #d50032;
-    font-weight: 700;
-    font-size: 16px;
+    flex-direction: row;
+    margin: 45px;
 }
-.section6-block1 img{
-    width: 45vw;
+.imagenes-unete figure{
+    margin: 0;
+    justify-items: center;
 }
-.section6-block1--b1{
-    background-color: rgb(252, 193, 220); /* Color inicial del botón */
-    color: rgb(240, 8, 35);
-    padding: 5px;
-    margin-right: 20px;
-    border-radius: 15px;
-    border-color: rgb(240, 8, 35);
-    cursor: pointer;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12pt;
+.imagenes-unete img{
+    width: 10vw;
 }
-.section6-block1--b1:hover{
-    color: rgb(240, 8, 35); /* Color del botón cuando el ratón pasa por encima */
-  }
-.section6-block2{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
-    background: rgba(143, 213, 227, 0.971);
-    align-items: center;
-    text-align: center;
-    color: rgba(21, 32, 101, 0.818);
-    font-weight: 700;
-    font-size: 16px;
-}
-.section6-block2 img{
-    width: 45vw;
-}
-.section6-block2--b1{
-    background-color: rgba(143, 213, 227, 0.971); /* Color inicial del botón */
-    color: rgba(21, 32, 101, 0.818);
-    padding: 5px;
-    margin-right: 20px;
-    border-radius: 15px;
-    border-color: rgba(21, 32, 101, 0.818);
-    cursor: pointer;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12pt;
-}
-.section6-block2--b1:hover{
-    color: rgba(21, 32, 101, 0.818); /* Color del botón cuando el ratón pasa por encima */
-  }
 
 /*Estilo del pie de página*/
 
@@ -376,5 +239,3 @@ ul{
 #codigo{
     font-size: 8pt;
 }
-/*Diseño del menu*/
-
