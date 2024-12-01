@@ -1,5 +1,5 @@
 # Proyecto Final: Copia en estilo y estructura similar al sitio de STARBUCKS.
-
+El siguiente archivo, presenta un marco completo sobre el proyecto final que se desarrollará en el módulo II del Curso de Font-End impartido en Campus DEV.F. 
 ## Objetivo Principal
 
 ## Objetivos Específicos
