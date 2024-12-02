@@ -61,23 +61,53 @@ Una regla CSS completa incluye varias partes:
 #### II.2 Propiedades básicas de CSS
 
 ### III.Historial de commits
+#### III.1 Commits on Nov 21, 2024
+- **Styling navbar and completing sections**
+- Styling section1 and logo
+- Adding style.css
+- Adding section 1 and navbar
+- Adding index.html
+#### III.2 Commits on Nov 22, 2024
+- Adding section6
+- Completing navbar
+#### III.3 Commits on Nov 23, 2024
+- **Styling home page, load project 2**
+- Adding footer
+#### III.4 Commits on Nov 27, 2024
+- **Starting to style rewards (project3)**
+- Adding menu and rewards
+#### III.5 Commits on Nov 28, 2024
+- Fixing section of rewards
+#### III.6 Commits on Nov 28, 2024
+- Fixing section of rewards
+#### III.7 Commits on Nov 29, 2024
+- Ordering structure and creation of styler.css
+#### III.8 Commits on Nov 30, 2024
+- Completed sections (unstylized)
+- Join and benefits sections completed
+#### III.9 Commits on Dic 1°,2024
+- Complete Section on CSS
+- Adding four sections.md
+- Project Description
+- Create README.md
+- **Project 4 (Rewards completed)**
 
 ### IV.Etapas del proyecto
 
-#### Lección 1
+#### Lección 1: Introducción a CSS
 
-#### Lección 2
+#### Lección 2: Propiedades básicas de CSS
 
-#### Lección 3
+#### Lección 3: Herencia en CSS
 
-#### Lección 4
+#### Lección 4: Introducción a Flexbox
 
-#### Lección 5
+#### Lección 5: Alineación con Flexbox
 
-#### Lección 6
+#### Lección 6: Position con CSS
 
-#### Lección 7
+#### Lección 7: Estilos Responsivos
 
-#### Lección 8
+#### Lección 8: Proyecto final
 
 ## Conclusiones
