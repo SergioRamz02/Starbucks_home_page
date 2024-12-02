@@ -29,13 +29,40 @@ El objetivo del proyecto es crear, estilizar y asemejar lo más posible un sitio
 
 ## Contenido
 
-### 1. Marco teórico
+### I. CSS (Cascading Style Sheets)
+#### I.1. Definición
+CSS (Cascading Style Sheets) es un lenguaje que define el estilo y diseño de una página web, permitiendo agregar colores, fuentes, espacios y otros elementos visuales. Su principal función es separar el contenido HTML de la presentación visual, facilitando modificaciones de diseño sin alterar la estructura del contenido.
 
-### 2.Etiquetas, elementos y estructura empleados
+Además, CSS permite crear diseños responsivos, adaptando la apariencia de la página a distintos tamaños de pantalla, desde computadoras hasta dispositivos móviles.<br>
 
-### 3.Historial de commits
+#### I.2. Estructura básica de CSS
 
-### 4.Etapas del proyecto
+La escritura en CSS se hace a partir de reglas, como se muestra en la figura. <br>
+
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXduKdev8HgKZCCzxzp7ESo3FhgWOe39whKnx4b1JT1lHr6o78UBrNSczWeuv-Yav47NpPuz0NZIGaRfwHFUkOjbK5uRn7Fpn2cj555N8a2qT0ckKgui1cArcH0vYw3HaGkRzXr_a__8U8VQu3OmCGCTYLOh?key=9nviClNEFdtYbYgm6NMrXA" width="400px"> <br>
+*Estructura básica de una regla en CSS. Derechos de Campus DEV.F* <br>
+
+Una regla CSS completa incluye varias partes:
+
+- **Selector**: Define el elemento HTML al que se aplicará el estilo *(por ejemplo, <**p**>)*.
+- **Declaración**: Especifica qué propiedad se modificará *(por ejemplo, color: red;)*.
+- **Propiedades**: Son las características que puedes modificar de un elemento *(como color)*.
+- **Valor de la propiedad**: Determina el aspecto específico de la propiedad *(por ejemplo, red)*.
+
+**Sintaxis clave**:
+
+- Las declaraciones van entre llaves **{}**.
+- Propiedad y valor se separan con dos puntos **:**.
+- Las declaraciones múltiples se separan con punto y coma **;**.
+
+### II.Selectores y propiedades empleados
+#### II.1 Selectores
+
+#### II.2 Propiedades básicas de CSS
+
+### III.Historial de commits
+
+### IV.Etapas del proyecto
 
 #### Lección 1
 
