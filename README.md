@@ -86,6 +86,9 @@ Una regla CSS completa incluye varias partes:
 - Completed sections (unstylized)
 - Join and benefits sections completed
 #### III.9 Commits on Dic 1°,2024
+- Merge branch 'master' of https://github.com/SergioRamz02/Starbucks_home_page
+- Adding Position to navbar and margins
+- Complete Section commits
 - Complete Section on CSS
 - Adding four sections.md
 - Project Description
