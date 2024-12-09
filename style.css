@@ -13,15 +13,17 @@
     display: flex;
     flex-direction: row;
     font-family: "Open Sans", sans-serif;
+    padding: 10px 30px;
+    border-bottom: 2px solid #ddd;
+    justify-content: space-between;
 }
 
 .header-navbar--left{
-    margin-right: 150px;
-    margin-left: 100px;
-    padding-bottom: 5px;
+    display: flex;
     justify-content: space-around; /* Espaciado entre elementos */
     align-items: center;
     text-align: center;
+    gap: 10px;
 }
   .header-navbar--left---menu{
     background-color: white; /* Color inicial del botón */
@@ -50,11 +52,10 @@
   }
 
 .header-navbar--right{
-    margin-right: 130px;
-    margin-left: 450px;
-    padding-top: 10px;
-    justify-content: space-around; /* Espaciado entre elementos */
+    display: flex;
+    
     align-items: center;
+    gap: 10px;
 }
 .header-navbar--right---shop{
     background-color: white; /* Color inicial del botón */
@@ -118,20 +119,23 @@ p{
 .section1{
     display: flex;
     flex-direction: row;
-    margin: 20px 0 30px;
+    margin-bottom: 30px;
     background:  #1e3932 ;
-   
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
-.section1-img{
-    margin-right: 150px;
-}
+
 .section1-container{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
     text-align: center;
     color: white;
+
+    margin: 0 auto;
+    padding: 32px 16px;
+    max-width: 600px;
 }
 /*Section 2*/
 .section2{
@@ -140,17 +144,21 @@ p{
     margin-bottom: 30px;
     background: #0044b4;
 
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
 }
-.section2-img{
-    margin-left: 150px;
-}
+
 .section2-container{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
     text-align: center;
     color: white;
+
+    margin: 0 auto;
+    padding: 32px 16px;
+    max-width: 600px;
 }
 /*Section 3*/
 .section3{
@@ -159,36 +167,44 @@ p{
     margin-bottom: 30px;
     background: #d50032;
 
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
 }
-.section3-img{
-    margin-right: 150px;
-}
+
 .section3-container{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
     text-align: center;
     color: white;
+
+    margin: 0 auto;
+    padding: 32px 16px;
+    max-width: 600px;
 }
 /*Section 4*/
 .section4{
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
-    background: #1e3932 ;
+    background: #1e3932;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 
 }
-.section4-img{
-    margin-left: 150px;
-}
+
 .section4-container{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
     text-align: center;
     color: white;
+
+    margin: 0 auto;
+    padding: 32px 16px;
+    max-width: 600px;
 }
 /*Section 5*/
 .section5{
@@ -196,18 +212,22 @@ p{
     flex-direction: row;
     background: #d50032;
 
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
 }
-.section5-img{
-    margin-right: 150px;
-}
+
 .section5-container{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 90px;
     text-align: center;
     line-height: 2;
     color: white;
+
+    margin: 0 auto;
+    padding: 32px 16px;
+    max-width: 600px;
 }
 .section5-container--b1{
     background-color: #d50032; /* Color inicial del botón */
@@ -464,3 +484,105 @@ ul{
     font-weight: 600;
     font-size: 14pt;
 }
+/*Diseño responsivo mediante media queries*/
+
+/* Pantallas pequeñas: móviles (máximo 768px) */
+@media (max-width: 768px) {
+    .header-navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+  
+    .header-navbar--left,
+    .header-navbar--right {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+  
+    .header-navbar--left---menu,
+    .header-navbar--right---shop,
+    .header-navbar--right---login,
+    .header-navbar--right---join {
+      font-size: 10pt; /* Reducir tamaño de fuente */
+      padding: 8px; /* Ajustar espaciado */
+    }
+  
+    .section1,
+    .section2, 
+    .section3, 
+    .section4, 
+    .section5 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+  
+    .section1-img, 
+    .section2-img, 
+    .section3-img, 
+    .section4-img, 
+    .section5-img {
+        width: 90%; /* Imagen ajustada al ancho de pantalla */
+    }
+  
+    .section1-container,
+    .section2-container,
+    .section3-container,
+    .section4-container,
+    .section5-container {
+        padding: 0 20px;
+    }
+  }
+  
+  /* Pantallas medianas: tablets (769px a 1024px) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .header-navbar {
+        padding: 10px 20px;
+    }
+  
+    .section1, 
+    .section2, 
+    .section3, 
+    .section4, 
+    .section5 {
+        flex-direction: column;
+        gap: 20px;
+    }
+  
+    .section1-img, 
+    .section2-img, 
+    .section3-img, 
+    .section4-img, 
+    .section5-img {
+      margin-right: 50px;
+    }
+  
+    .section1-container,
+    .section2-container,
+    .section3-container,
+    .section4-container,
+    .section5-container {
+        width: 50%; /* Imagen más pequeña para tablets */
+    }
+  }
+/* Pantallas grandes (1025px en adelante) */
+@media (min-width: 1025px) {
+    .header-navbar {
+        padding: 10px 50px;
+    }
+
+
+    .section1-img, 
+    .section2-img, 
+    .section3-img, 
+    .section4-img, 
+    .section5-img  {
+        width: 650px;
+    }
+}
+  
+  
