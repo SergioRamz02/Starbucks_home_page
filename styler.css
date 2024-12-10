@@ -14,15 +14,17 @@
     display: flex;
     flex-direction: row;
     font-family: "Open Sans", sans-serif;
+    padding: 10px 30px;
+    border-bottom: 2px solid #ddd;
+    justify-content: space-between;
 }
 
 .header-navbar--left{
-    margin-right: 150px;
-    margin-left: 100px;
-    padding-bottom: 5px;
+    display: flex;
     justify-content: space-around; /* Espaciado entre elementos */
     align-items: center;
     text-align: center;
+    gap: 10px;
 }
   .header-navbar--left---menu{
     background-color: white; /* Color inicial del botón */
@@ -51,11 +53,10 @@
   }
 
 .header-navbar--right{
-    margin-right: 130px;
-    margin-left: 450px;
-    padding-top: 10px;
-    justify-content: space-around; /* Espaciado entre elementos */
+    display: flex;
+    
     align-items: center;
+    gap: 10px;
 }
 .header-navbar--right---shop{
     background-color: white; /* Color inicial del botón */
@@ -438,7 +439,9 @@ iframe{
 .footer{
     display: flex;
     flex-direction: column;
-    margin: 10px 35px 15px 0;
+    margin: 10px 35px 30px 15px;
+    justify-items: center;
+    border-top: 2px solid #ddd;
     background: white;
     color: grey;
     font-family: "Open Sans", sans-serif;
@@ -447,15 +450,16 @@ iframe{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    text-align: left;
-    margin: 20px 0 40px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 11pt;
 }
 .footer-info--c1{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     line-height: 2;
+    margin-left: 100px;
     margin-right: 15px;
 }
 .footer-info--c2{
@@ -489,10 +493,10 @@ a:hover{
 .footer-redes{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-    margin: 20px 200px 0;
-
+    margin-top: 20px;
+    margin-right: 550px;
+    margin-left: 550px;
 }
 .footer-redes img{
     width: 35px;
@@ -500,7 +504,6 @@ a:hover{
     transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
     display: block;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra inicial suave */
-    gap: 5px;
     cursor: pointer;
 }
 .footer-redes:hover img{
@@ -511,20 +514,15 @@ a:hover{
 .footer-derechos{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 30px;
-    text-align: left;
-    
+    text-align: center;
 }
 .footer-derechos--permisos{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2px;
-    margin-bottom: 20px;
-    font-size: 12pt;
-    width: 50vw;
+    justify-content: space-around;
+    margin: 0 60px 20px;
+    gap: 10px;
 }
 ul{
   list-style: none;
@@ -534,3 +532,190 @@ ul{
 #codigo{
     font-size: 8pt;
 }
+/*DISEÑO RESPONSIVO*/
+/* Estilos generales (para dispositivos grandes por defecto) */
+/* Ya están definidos en el código original */
+
+/* Pantallas grandes (1025px en adelante) */
+@media (min-width: 1025px) {
+    .header-navbar {
+        padding: 10px 50px 0;
+    }
+    
+    .footer-redes {
+        justify-content: center;
+        gap: 30px;
+        margin: 0;
+    }
+   
+}
+/* Pantallas medianas (tabletas en orientación vertical, smartphones grandes) */
+@media (max-width: 1024px) {
+    .header-navbar {
+        padding: 10px 20px;
+    }
+    /* Contenedor principal */
+    .container {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    /* Contenedor fijo */
+    .container-fijo {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .container-fijo img {
+        width: 50%; /* Ajuste de imagen */
+        margin: 20px auto;
+    }
+    .container-fijo p {
+        font-size: 24px;
+    }
+
+    /* Beneficios */
+    .beneficios-container {
+        grid-template-columns: repeat(2, 1fr); /* Cambiar a 2 columnas */
+    }
+
+    /* Delivery */
+    .steps-container li {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .steps-container img {
+        width: 80%; /* Ajuste de imagen */
+    }
+
+    /* Ordenar y pagar */
+    #order-container--form {
+        grid-template-columns: repeat(3, 1fr); /* Cambiar a 3 columnas */
+    }
+    .footer{
+        margin: 0;
+        justify-content: center;
+    }
+    .footer-info {
+        flex-direction: row; /* Footer en filas en tablets */
+        justify-content: space-around;
+    }
+    .footer-redes {
+        justify-content: space-around;
+        margin: 0;
+    }
+    .footer-redes img {
+        width: 40px; /* Iconos un poco más pequeños para tablets */
+    }
+    .footer-derechos{
+        text-align: center;
+        justify-content: space-between;
+        margin: 20px 10px 0;
+    }
+    .footer-derechos--autor{
+        font-size: 80%;
+    }
+}
+/* Pantallas pequeñas (smartphones en orientación vertical) */
+@media (max-width: 768px) {
+    #header{
+        position: relative;
+    }
+    body{
+        margin: 0;
+    }
+    .header-navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+  
+    .header-navbar--left,
+    .header-navbar--right {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+  
+    .header-navbar--left---menu,
+    .header-navbar--right---shop,
+    .header-navbar--right---login,
+    .header-navbar--right---join {
+      font-size: 10pt; /* Reducir tamaño de fuente */
+      padding: 8px; /* Ajustar espaciado */
+    }
+  
+    /* Contenedor principal */
+    .container {
+        padding: 10px;
+    }
+
+    /* Contenedor fijo */
+    .container-fijo {
+        width: 100%;
+        padding: 15px;
+    }
+    .container-fijo img {
+        width: 80%;
+    }
+    .container-fijo p {
+        font-size: 18px;
+    }
+
+    /* Regalos */
+    .container-regalos {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .imagenes-unete {
+        flex-direction: column; /* Cambiar a columna */
+        align-items: center;
+    }
+    .imagenes-unete img {
+        width: 70%; /* Ajuste de imagen */
+    }
+
+    /* Beneficios */
+    .beneficios-container {
+        grid-template-columns: 1fr; /* Cambiar a 1 columna */
+    }
+    .beneficios-container img {
+        width: 90%; /* Ajuste de imagen */
+    }
+
+    /* Delivery */
+    .steps-container img {
+        width: 90%;
+    }
+
+    /* Ordenar y pagar */
+    #order-container--form {
+        grid-template-columns: repeat(2, 1fr); /* Cambiar a 2 columnas */
+    }
+    .footer-info {
+        flex-direction: column; /* Información del footer en columnas */
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .footer-redes {
+        flex-direction: column; /* Redes sociales en columna */
+        gap: 10px;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .footer-redes img {
+        width: 50px; /* Iconos más grandes para móviles */
+    }
+    .footer-derechos--permisos{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+}
+
