@@ -550,6 +550,59 @@ ul{
         align-items: center;
         gap: 20px;
     }
+    .menu-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .menu-container h2{
+        font-size: 14pt;
+        flex-wrap: wrap;
+        line-height: 1;
+    } 
+    .menu-container p,
+    .menu-container h3{
+        font-size: 100%;
+        flex-wrap: wrap;
+    }
+    .menu-container img{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .drinks-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 600;
+        font-size: 14pt;
+        width: 90%;
+        gap: 0;
+
+    }
+    #food{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 600;
+        font-size: 14pt;
+    }
+    
     
     .footer-info {
         flex-direction: column; /* Información del footer en columnas */
@@ -610,6 +663,49 @@ ul{
         justify-content: space-around;
         gap: 20px;
     }
+    body{
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .menu-container h2{
+        font-size: 18pt;
+        
+        line-height: 1;
+    } 
+    .menu-container p,
+    .menu-container h3{
+        align-items: center;
+        font-size: 14pt;
+        margin: 20px 0 15px;
+    }
+    .menu-container img{
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .drinks-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 600;
+        font-size: 14pt;
+    }
+    #food{
+        text-align: center;
+        font-size: 12pt;
+
+    }
+    #coffee{
+        text-align: center;
+        font-size: 12pt;
+    }
+
     
     .footer{
         margin: 0;
@@ -648,6 +744,11 @@ ul{
     .section5-img  {
         width: 650px;
     }
+    .menu-container h2{
+        font-size: 21pt;
+        justify-content: flex-start;
+        line-height: 1;
+    } 
     .footer-redes {
         justify-content: center;
         gap: 30px;
