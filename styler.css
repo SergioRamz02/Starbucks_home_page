@@ -110,8 +110,7 @@
 .container{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    height: calc(100vh-20px);
+    height: 100%;
     text-align: center;
     background-color: white;
     font-family: "Open Sans", sans-serif;
@@ -125,14 +124,14 @@
     padding: 50px;
     margin: 0;
     width: 35vw;
-    height:100vh;
+    height:100%;
     align-items: center;
     justify-content: center;
     font-family: "Open Sans", sans-serif;
     overflow: hidden; /*Es una propiedad para fijar el contenido con respecto al contenedor*/
 }
 .container-fijo img{
-    width: 25vw;
+    width: 20vw;
     margin: 100px 15px 5px;
 }
 .container-fijo p{
@@ -582,16 +581,20 @@ ul{
     /* Contenedor principal */
     .container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
     }
 
     /* Contenedor fijo */
     .container-fijo {
         position: relative;
         width: 100%;
-        padding: 15px;
+        padding: 15px 0;
     }
     .container-fijo img {
-        width: 80%;
+        width: 60%;
     }
     .container-fijo p {
         font-size: 18px;
@@ -602,13 +605,18 @@ ul{
         margin-left: 0;
         margin-top: 10px;
         width: 100%;
+        justify-content: center;
+    }
+    .container-regalos--unete p{
+        font-size: 14pt;
+        margin: 10px 0 5px;
     }
     .imagenes-unete {
         flex-direction: column; /* Cambiar a columna */
         align-items: center;
     }
     .imagenes-unete img {
-        width: 70%; /* Ajuste de imagen */
+        width: 50%; /* Ajuste de imagen */
     }
 
     /* Beneficios */
@@ -616,17 +624,24 @@ ul{
         grid-template-columns: 1fr; /* Cambiar a 1 columna */
     }
     .beneficios-container img {
-        width: 90%; /* Ajuste de imagen */
+        width: 50%; /* Ajuste de imagen */
     }
 
     /* Delivery */
     .steps-container img {
-        width: 90%;
+        width: 50%;
     }
 
     /* Ordenar y pagar */
     #order-container--form {
         grid-template-columns: repeat(2, 1fr); /* Cambiar a 2 columnas */
+    }
+    /*Pie de página*/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 15px;
+        justify-items: center;
     }
     .footer-info {
         flex-direction: column; /* Información del footer en columnas */
