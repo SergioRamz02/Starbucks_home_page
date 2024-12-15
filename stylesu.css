@@ -125,7 +125,7 @@ body{
     font-weight: 700;
     overflow: hidden; /*Es una propiedad para fijar el contenido con respecto al contenedor*/
 }
-/*Lado izquierdo*/
+/*Lado derecho*/
 .right-container{
     display: flex;
     flex-direction: column;
@@ -143,10 +143,86 @@ body{
 }
 form{
     flex-wrap: wrap;
-    margin: 0 35%;
+    margin: 0 30%;
     padding: 3em 0;
     line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
 }
+/* Estilo de las etiquetas */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #333;
+}
+form p{
+    text-align: left;
+    font-weight: 600;
+    font-size: 10pt;
+    color: #1e3932;
+}
+
+/* Campos de entrada */
+form input {
+    width: 100%;
+    font-weight: 700;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 1rem;
+    background-color: #f2f0eb;
+}
+/*Estilo de butones*/
+button{
+    background-color: #00a862; /* Color inicial del botón */
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: #00a862;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+    font-weight: 700;
+}
+button:hover{
+    color: green; /* Color del botón cuando el ratón pasa por encima */
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#unete{
+    background-color: white; /* Color inicial del botón */
+    color: #1e3932;
+    border-color: #1e3932;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    align-items:center;
+}
+#unete:hover{
+    background-color: #06633633;
+}
+#olvide{
+    background-color: #f2f0eb; /* Color inicial del botón */
+    color: #1e3932;
+    border-color: #f2f0eb;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    align-items:center;
+    font-size: 10pt;
+}
+#olvide:hover{
+    background-color: rgba(0, 254, 0, 0.542);
+}
+
 /*Parrafo de división*/
 #parrafo{
     width: 100%;
@@ -180,38 +256,7 @@ h2{
 .unete-container img{
     width: 30%;
 }
-button{
-    background-color: #00a862; /* Color inicial del botón */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border-color: #00a862;
-    cursor: pointer;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14pt;
-    font-weight: 700;
-}
-button:hover{
-    color: green; /* Color del botón cuando el ratón pasa por encima */
-}
-.button-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-#unete{
-    background-color: white; /* Color inicial del botón */
-    color: #1e3932;
-    border-color: #1e3932;
-    cursor: pointer;
-    font-family: "Open Sans", sans-serif;
-    align-items:center;
-}
-#unete:hover{
-    background-color: #06633633;
-}
+
 
 /*Estilo del pie de página*/
 .footer{
@@ -309,4 +354,289 @@ ul{
 }
 #codigo{
     font-size: 8pt;
+}
+
+/*DISEÑO RESPONSIVO*/
+/* Estilos generales (para dispositivos grandes por defecto) */
+/* Ya están definidos en el código original */
+
+/* Pantallas grandes (1025px en adelante) */
+@media (min-width: 1025px) {
+    .header-navbar {
+        padding: 10px 50px 0;
+    }
+    
+    .footer-redes {
+        justify-content: center;
+        gap: 30px;
+        margin: 0;
+    }   
+}
+
+/* Pantallas pequeñas (smartphones en orientación vertical) */
+@media (max-width: 768px) {
+    #header{
+        position: relative;
+    }
+   
+    .header-navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+  
+    .header-navbar--left,
+    .header-navbar--right {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+  
+    .header-navbar--left---menu,
+    .header-navbar--right---shop,
+    .header-navbar--right---login,
+    .header-navbar--right---join {
+      font-size: 10pt; /* Reducir tamaño de fuente */
+      padding: 8px; /* Ajustar espaciado */
+    }
+    .rewards-body{
+    margin: 0;
+    }
+/* Contenedor principal */
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+/* Lado izquierdo */
+    .left-container {
+        position: relative;
+        width: 100%;
+        padding: 15px 0;
+    }
+    .left-container p {
+        font-size: 18px;
+    }
+
+/* Lado derecho */
+    .right-container {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+/*FORMULARIO*/
+    form{
+        width: 60%;
+        justify-content: center;
+    }
+/* Estilo de las etiquetas */
+    form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-weight: 400;
+    width: 80%;
+    color: #333;
+    }
+    form p{
+    text-align: left;
+    font-weight: 600;
+    font-size: 10pt;
+    color: #1e3932;
+    }
+
+/* Campos de entrada */
+    form input {
+    width: 60%;
+    font-weight: 700;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 1rem;
+    background-color: #f2f0eb;
+    }
+/*Estilo de butones*/
+    button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 12pt;
+    }
+    button:hover{
+    color: green; /* Color del botón cuando el ratón pasa por encima */
+    }
+
+/*Parrafo de división*/
+    #parrafo{
+    width: 100%;
+    font-size: 10pt;
+    }
+/*Únete a Starbucks*/
+    h2{
+    font-size: 14pt; 
+    }
+    .unete-container p{
+    font-size: 12pt;
+    }
+    .unete-container img{
+    width: 30%;
+    }
+    
+/*Pie de página*/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 15px;
+        justify-items: center;
+    }
+    .footer-info {
+        flex-direction: column; /* Información del footer en columnas */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .footer-redes {
+        flex-direction: column; /* Redes sociales en columna */
+        gap: 10px;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .footer-redes img {
+        width: 50px; /* Iconos más grandes para móviles */
+    }
+    .footer-derechos--permisos{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+}
+
+/* Pantallas medianas (tabletas en orientación vertical, smartphones grandes) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-navbar {
+        padding: 10px 20px;
+    }
+    .rewards-body{
+        margin: 0;
+        width: 100%;
+        }
+/* Contenedor principal */
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+
+/* Contenedor fijo */
+    .left-container {
+        position: relative;
+        width: 100%;
+        padding: 15px 0;
+    }
+    .left-container p {
+        font-size: 24px;
+    }
+/* Lado derecho */
+    .right-container {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    }
+/*FORMULARIO*/
+    form{
+    width: 60%;
+    margin: 0 25%;
+    }
+/* Estilo de las etiquetas */
+    form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-weight: 400;
+    width: 100%;
+    color: #333;
+    }
+    form p{
+    text-align: left;
+    font-weight: 600;
+    font-size: 12pt;
+    color: #1e3932;
+    }
+
+/* Campos de entrada */
+    form input {
+    width: 100%;
+    font-weight: 700;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 1rem;
+    background-color: #f2f0eb;
+    }
+/*Estilo de butones*/
+    button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14pt;
+    }
+    button:hover{
+    color: green; /* Color del botón cuando el ratón pasa por encima */
+    }
+
+/*Parrafo de división*/
+    #parrafo{
+    width: 100%;
+    font-size: 12pt;
+    }
+/*Únete a Starbucks*/
+    h2{
+    font-size: 18pt;
+    }
+    .unete-container p{
+    font-size: 12pt;
+    }
+    .unete-container img{
+    width: 30%;
+    }
+
+/*Pie de pagina*/
+    .footer{
+        margin: 0;
+        justify-content: center;
+    }
+    .footer-info {
+        flex-direction: row; /* Footer en filas en tablets */
+        justify-content: space-around;
+    }
+    .footer-redes {
+        justify-content: center;
+        gap: 15px;
+        margin: 0;
+    }
+    .footer-redes img {
+        width: 40px; /* Iconos un poco más pequeños para tablets */
+    }
+    .footer-derechos{
+        text-align: center;
+        justify-content: space-between;
+        margin: 20px 10px 0;
+    }
+    .footer-derechos--autor{
+        font-size: 80%;
+    }
 }

@@ -19,8 +19,8 @@
         </nav>
         <nav class="header-navbar--right">
             <a href=""><img src="https://w7.pngwing.com/pngs/35/634/png-transparent-google-map-location-logo-computer-icons-geo-fence-location-fence-black-and-white-symbol-thumbnail.png" alt="ubicación" width="20px"><button class="header-navbar--right---shop"><b>Localizar Tienda</b></button></a>
-            <a href=""><button class="header-navbar--right---login"><b>Ingresar</b></button></a>
-            <a href=""><button class="header-navbar--right---join"><b>Únete</b></button></a>
+            <a href="./ingresar.html"><button class="header-navbar--right---login"><b>Ingresar</b></button></a>
+            <a href="./unete.html"><button class="header-navbar--right---join"><b>Únete</b></button></a>
         </nav>
     </navbar>
 </header>
@@ -35,19 +35,16 @@
 <!--Formulario-->
     <section class="form-container">
         <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">* Ingresa tu email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">* Ingresa tu contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            
+                <label for="email">* Ingresa tu email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu email" required>
+            
+            
+                <label for="password">* Ingresa tu contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+                 <button id="olvide">Olvide mi contraseña</button>
+            
+            <button type="submit">Iniciar Sesión</button>
          </form>
     </section>
      
