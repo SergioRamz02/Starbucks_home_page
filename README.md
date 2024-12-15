@@ -61,56 +61,84 @@ Una regla CSS completa incluye varias partes:
 #### II.2 Propiedades básicas de CSS
 
 ### III.Historial de commits
-#### III.1 Commits on Nov 21, 2024
-- **Styling navbar and completing sections**
-- Styling section1 and logo
-- Adding style.css
-- Adding section 1 and navbar
-- Adding index.html
-#### III.2 Commits on Nov 22, 2024
-- Adding section6
-- Completing navbar
-#### III.3 Commits on Nov 23, 2024
-- **Styling home page, load project 2**
-- Adding footer
-#### III.4 Commits on Nov 27, 2024
-- **Starting to style rewards (project3)**
-- Adding menu and rewards
-#### III.5 Commits on Nov 28, 2024
-- Fixing section of rewards
-#### III.6 Commits on Nov 28, 2024
-- Fixing section of rewards
-#### III.7 Commits on Nov 29, 2024
-- Ordering structure and creation of styler.css
-#### III.8 Commits on Nov 30, 2024
-- Completed sections (unstylized)
-- Join and benefits sections completed
-#### III.9 Commits on Dic 1°,2024
-- Merge branch 'master' of https://github.com/SergioRamz02/Starbucks_home_page
-- Adding Position to navbar and margins
-- Complete Section commits
-- Complete Section on CSS
-- Adding four sections.md
-- Project Description
-- Create README.md
-- **Project 4 (Rewards completed)**
+#### III.1 Lección 1
+- [**Styling navbar and completing sections**](https://github.com/SergioRamz02/Starbucks_home_page/commit/b4127d4276b449144d551b0f2a6cc65f918c4d75)
+
+#### III.2 Lección 2
+- [**Styling home page, load project 2**](https://github.com/SergioRamz02/Starbucks_home_page/commit/36b3e168666493dd6a49fee7cb4c2a6e71ba77c5)
+
+#### III.3 Lección 3
+- [**Starting to style rewards (project3)**](https://github.com/SergioRamz02/Starbucks_home_page/commit/1ddc05fa183edeb43c7040e453e31bff4b76d0e3)
+
+#### III.4 Lección 4
+- [**Project 4 (Rewards completed)**](https://github.com/SergioRamz02/Starbucks_home_page/commit/8bd599bbbd1e490fc21d15e52e9cbb548fafbccd)
+
+#### III.5 Lección 5
+- [**Project 5 completed**](https://github.com/SergioRamz02/Starbucks_home_page/commit/f94e72c0f32074619953bd69dfde1285251d6076)
+
+#### III.6 Lección 6
+- [**Project 6: Responsive Design**](https://github.com/SergioRamz02/Starbucks_home_page/commit/93854f2922d6c2770c70cdee3622a114b16f22f2)
+
+#### III.7 Lección 7
+- [**Project 7 completed**](https://github.com/SergioRamz02/Starbucks_home_page/commit/c1d9c12c792408140136cec7a577c7931b5bbe2e)
+
+#### III.8 Lección 8
+- [**Final Project completed (Project 8)**](https://github.com/SergioRamz02/Starbucks_home_page/commit/8fede513e167dba4f27e7af57c1161925ff622a6)
 
 ### IV.Etapas del proyecto
 
 #### Lección 1: Introducción a CSS
 
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
+<img src="https://sergioramz02.github.io/Starbucks_home_page/" width="400px">
+
 #### Lección 2: Propiedades básicas de CSS
+
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
 
 #### Lección 3: Herencia en CSS
 
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
+
 #### Lección 4: Introducción a Flexbox
+
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
 
 #### Lección 5: Alineación con Flexbox
 
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
+
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
+
 #### Lección 6: Position con CSS
+
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
 
 #### Lección 7: Estilos Responsivos
 
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
+
 #### Lección 8: Proyecto final
 
-## Conclusiones
+##### **Código HTML**
+##### **Estructura CSS**
+##### **Visualización en web**
+
+## Conclusión
+
