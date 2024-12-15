@@ -57,8 +57,62 @@ Una regla CSS completa incluye varias partes:
 
 ### II.Selectores y propiedades empleados
 #### II.1 Selectores
+Los selectores en CSS se utilizan para seleccionar y aplicar estilos a elementos específicos en un documento HTML. A continuación se enlistan los selectores más comunes:
+
+1. **Selector Universal (*)**: Selecciona todos los elementos del documento.
+2. **Selector de Tipo (elemento)**: Selecciona todos los elementos de un tipo específico (como h1, p, div, section).
+3. **Selector de Clase (.nombreClase)**: Selecciona todos los elementos con una clase específica.
+4. **Selector de ID (#nombreID)**: Selecciona un elemento único con un identificador específico.
+5. **Selector de Atributo ([atributo])**: Selecciona elementos con un atributo específico.
+6. **Selectores Combinados**
+   - **Selector de Descendientes (elemento elemento)**: Selecciona elementos dentro de un contenedor.
+   - **Selector de Hijo Directo (elemento > elemento)**: Selecciona solo hijos directos.
+   - **Selector General de Hermanos (elemento ~ elemento)**: Selecciona todos los hermanos que coincidan.
+7. **Pseudoclases**
+   - **Estado (:hover, :focus, :active)**: Aplica estilos basados en interacciones del usuario.
+   - **Posición (:first-child, :last-child, :nth-child(n))**: Selecciona elementos según su posición en un contenedor.
+8. **Pseudoelementos**
+   - **::before y ::after**: Insertan contenido antes o después de un elemento.
 
 #### II.2 Propiedades básicas de CSS
+Las propiedades de CSS controlan los estilos de los elementos. Estas propiedades pueden clasificarse en varias categorías:
+
+1. **Propiedades de Texto**
+   - *color*: Define el color del texto.
+   - *font-size*: Tamaño de la fuente.
+   - *font-family*: Tipo de fuente.
+   - *text-align*: Alineación del texto (left, right, center, justify).
+   - *line-height*: Altura de las líneas.
+2. **Propiedades de Fondo**
+   - *background-color*: Color de fondo.
+   - *background-image*: Imagen de fondo.
+   - *background-size*: Tamaño del fondo (cover, contain).
+   - *background-position*: Posición del fondo.
+3. **Propiedades de Caja (Box Model)**
+   - *margin*: Espaciado externo.
+   - *padding*: Espaciado interno.
+   - *border*: Bordes de un elemento.
+   - *width* y *height*: Dimensiones de un elemento.
+4. **Propiedades de Posicionamiento**
+   - *position*: Define la posición (static, relative, absolute, fixed, sticky).
+   - *top, right, bottom, left*: Posición relativa al contenedor.
+   - *z-index*: Define la profundidad de los elementos.
+5. **Propiedades de Flexbox y Grid**
+   - *display*: Define el modelo de caja (flex, grid, etc.).
+   - *justify-content*: Alineación horizontal en flexbox o grid.
+   - *align-items*: Alineación vertical.
+   - *grid-template-columns*: Definir columnas en Grid.
+   - *grid-template-rows*: Definir renglones en Grid.
+6. **Propiedades de Animación y Transición**
+   - *transition*: Cambios suaves entre estados.
+   - *animation*: Define animaciones
+#### **Clasificación General de las Propiedades de CSS**
+1. **Texto**: color, font-size, text-align.
+2. **Fondo**: background-color, background-image.
+3. **Caja**: margin, padding, border.
+4. **Posicionamiento**: position, z-index.
+5. **Modelo de Diseño**: display, grid-template-rows, flex-direction.
+6. **Animación**: transition, animation.
 
 ### III.Historial de commits
 #### III.1 Lección 1
@@ -87,58 +141,112 @@ Una regla CSS completa incluye varias partes:
 
 ### IV.Etapas del proyecto
 
-#### Lección 1: Introducción a CSS
+### Lección 1: Introducción a CSS (Inicio de Home Page de Starbucks)
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
-<img src="https://sergioramz02.github.io/Starbucks_home_page/" width="400px">
+#### **Código HTML**
 
-#### Lección 2: Propiedades básicas de CSS
+<img src="https://i.postimg.cc/Kjk2KZDb/Lecci-n-1-html.jpg" width="100%">
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+#### **Estructura CSS**
 
-#### Lección 3: Herencia en CSS
+<img src="https://i.postimg.cc/HWRJ6nKQ/lecci-n-1-css.jpg" width="100%">
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+### Lección 2: Propiedades básicas de CSS (Home Page completa)
 
-#### Lección 4: Introducción a Flexbox
+#### **Código HTML**
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+<img src="https://i.postimg.cc/59Yq36pV/Lecci-n-2-html.jpg" width="100%">
 
-#### Lección 5: Alineación con Flexbox
+#### **Estructura CSS**
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+<img src="https://i.postimg.cc/0Q9FS77P/lecci-n-2-css.jpg" width="100%">
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+### Lección 3: Herencia en CSS (Inicio del Apartado de Rewards)
 
-#### Lección 6: Position con CSS
+#### **Código HTML**
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+<img src="https://i.postimg.cc/YSzytjZV/lecci-n-3-html.jpg" width="100%">
 
-#### Lección 7: Estilos Responsivos
+#### **Estructura CSS**
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+<img src="https://i.postimg.cc/RVJsNg2w/lecci-n-3-css.jpg" width="100%">
 
-#### Lección 8: Proyecto final
+### Lección 4: Introducción a Flexbox (Apartado de Rewards Completo)
 
-##### **Código HTML**
-##### **Estructura CSS**
-##### **Visualización en web**
+#### **Código HTML**
+
+<img src="https://i.postimg.cc/Df9DdVrx/lecci-n-4-html.jpg" width="100%">
+
+#### **Estructura CSS**
+
+<img src="https://i.postimg.cc/Wz2rm11B/lecci-n-4-css.jpg" width="100%">
+
+### Lección 5: Alineación con Flexbox (Apartado de Menú Completo)
+
+#### **Código HTML**
+
+<img src="https://i.postimg.cc/2yGZ6NrC/lecci-n-5-html.jpg" width="100%">
+
+#### **Estructura CSS**
+
+<img src="https://i.postimg.cc/pL9jJ7PL/lecci-n-5-css.jpg" width="100%">
+
+### Lección 6: Position con CSS (Diseño Responsivo de los Apartados de Menú, Rewards y Home Page)
+
+#### **Diseño Responsivo de Home y Menú**
+
+<img src="https://i.postimg.cc/j2KYqGSq/lecci-n-6-css1.jpg" width="100%">
+
+#### **Diseño Responsivo de Rewards**
+
+<img src="https://i.postimg.cc/VLdDrK0z/lecci-n-6-css2.jpg" width="100%">
+
+### Lección 7: Estilos Responsivos (Apartados de Iniciar Sesión y Únete, así como su Diseño Responsivo)
+
+#### **Apartado de Iniciar Sesión (HTML)**
+
+<img src="https://i.postimg.cc/JzhD4FsQ/lecci-n-7-ingresar.jpg" width="100%">
+
+#### **Apartado de Únete (HTML)**
+
+<img src="https://i.postimg.cc/CLhdm2sV/lecci-n-7-unete.jpg" width="100%">
+
+#### **Estructura CSS**
+
+<img src="https://i.postimg.cc/fbZcKCyt/lecci-n-7-css.jpg" width="100%">
+
+#### **Diseño Responsivo**
+
+<img src="https://i.postimg.cc/VvSZ8gjs/lecci-n-7-desing.jpg" width="100%">
+
+### Lección 8: Proyecto final (Sitio Web Completo)
+
+#### **Home Page**
+
+<img src="https://i.postimg.cc/Sx24d0jR/Home-starbucks.jpg" width="100%">
+
+#### **Menú**
+
+<img src="https://i.postimg.cc/TwGXTp05/menu.jpg" width="100%">
+
+#### **Rewards**
+
+<img src="https://i.postimg.cc/tgQKzYLv/rewards.jpg" width="100%">
+
+#### **Iniciar Sesión**
+
+<img src="https://i.postimg.cc/C5Qtn1GN/Iniciar-sesion.jpg" width="100%">
+
+#### **Únete**
+
+<img src="https://i.postimg.cc/VNWVB495/unete.jpg" width="100%">
 
 ## Conclusión
+A lo largo de este módulo, se adquirieron conocimientos teóricos y prácticos sobre el lenguaje **CSS**, el cual permite mejorar el estilo y diseño de un sitio web, haciendo que sea más atractivo tanto en el texto como en la organización y distribución del contenido. Para reforzar el aprendizaje en el uso de **CSS**, se desarrolló un proyecto que consistió en crear un duplicado lo más fiel posible al sitio web de **Starbucks**, replicando tanto su contenido como su diseño visual.
 
+Durante el desarrollo y finalización de este trabajo, se evidenció lo complejo que puede resultar construir sitios web con diseños atractivos. Además, se destacó la importancia de ampliar nuestras expectativas y entender las necesidades y preferencias del cliente respecto al servicio que ofrecemos, ya que esto influye directamente en el éxito del sitio web.
+
+Por último, se emplearon **media queries** para implementar un diseño responsivo, adaptable y agradable en distintos dispositivos electrónicos, atendiendo las demandas tecnológicas actuales.
+
+## Agradecimientos
+Quiero agradecer al *Sensei **Carlos Ivan García Fouregat*** por su tiempo, dedicación y enseña durante los módulos de este curso, además de que sus clases siempre fueron muy didácticas. También, a **DEV.F** y **Becalos Tech Challenge**, por esta beca y por la gran oportunidad de adquirir nuevos conocimientos y habilidades.
